@@ -15,8 +15,8 @@ describe 'Shoe' do
     end
 
     it 'has a color' do
-      shoe.color = "red"
-      expect(shoe.color).to eq("red")
+      shoe.color = "red" #writer
+      expect(shoe.color).to eq("red") #reader
     end
 
     it 'has a size' do
